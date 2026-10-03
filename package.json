@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "npm test --workspaces --if-present",
-    "typecheck": "npm run typecheck --workspaces --if-present"
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "demo:cards": "npm run demo:cards -w @cash-table/engine"
   },
   "devDependencies": {
     "@types/node": "^22.20.5",

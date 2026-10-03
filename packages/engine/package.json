@@ -6,6 +6,7 @@
   "exports": "./src/index.ts",
   "scripts": {
     "test": "node --experimental-strip-types --test \"src/**/*.test.ts\"",
-    "typecheck": "tsc -p tsconfig.json"
+    "typecheck": "tsc -p tsconfig.json",
+    "demo:cards": "node --experimental-strip-types --no-warnings scripts/demo-cards.ts"
   }
 }
